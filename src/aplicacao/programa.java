@@ -52,7 +52,7 @@ public class programa {
 			System.out.println("3 - Nome da pessoa que ganhou mais");
 			System.out.println("4- Sair");
 			
-			System.out.println("Digite uma opção: ");
+			System.out.print("Digite uma opção: ");
 			menu=sc.nextInt();
 			if(menu==1) {
 				System.out.printf("Total de horas = %d%n", th);
@@ -60,7 +60,13 @@ public class programa {
 			if(menu==2) {
 				System.out.printf("Custo total = R$ %.2f%n", ct);
 			}
+			if(menu==3) {
+				System.out.printf("Pessoa que mais ganhou: %s%n", nmaior);
+			}
+			
+			
 		}
+		System.out.println("FIM DO PROGRAMA!");
 		sc.close();
 	}
 
