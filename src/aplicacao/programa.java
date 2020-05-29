@@ -42,6 +42,19 @@ public class programa {
 			System.out.println("Digitar outro (S/N)?");
 			t=sc.next().charAt(0);
 			}
+		int menu=0;
+		
+		while(menu!=4) {
+		
+			System.out.println("MENU");
+			System.out.println("1 - Total de horas trabalhadas");
+			System.out.println("2 - Custo Total");
+			System.out.println("3 - Nome da pessoa que ganhou mais");
+			System.out.println("4- Sair");
+			
+			System.out.println("Digite uma opção: ");
+			menu=sc.nextInt();
+		}
 		sc.close();
 	}
 
