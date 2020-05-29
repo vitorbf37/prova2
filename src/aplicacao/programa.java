@@ -54,6 +54,12 @@ public class programa {
 			
 			System.out.println("Digite uma opção: ");
 			menu=sc.nextInt();
+			if(menu==1) {
+				System.out.printf("Total de horas = %d%n", th);
+			}
+			if(menu==2) {
+				System.out.printf("Custo total = R$ %.2f%n", ct);
+			}
 		}
 		sc.close();
 	}
